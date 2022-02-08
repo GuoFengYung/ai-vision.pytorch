@@ -1,4 +1,4 @@
-# mirle-vision.pytorch
+# ai-vision.pytorch
 
 > The following instructions are made for **Development Mode**, to see **Production Mode** visit [DEPLOYMENT.md](docs/DEPLOYMENT.md)
 
