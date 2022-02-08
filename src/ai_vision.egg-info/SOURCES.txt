@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/mirle_vision/__init__.py
+src/mirle_vision.egg-info/PKG-INFO
+src/mirle_vision.egg-info/SOURCES.txt
+src/mirle_vision.egg-info/dependency_links.txt
+src/mirle_vision.egg-info/top_level.txt
