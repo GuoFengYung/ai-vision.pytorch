@@ -1,0 +1,22 @@
+<annotation>
+	<filename>000079.jpg</filename>
+	<size>
+		<width>500</width>
+		<height>357</height>
+		<depth>3</depth>
+	</size>
+	<category>dog</category>
+	<object>
+		<name>dog</name>
+		<difficult>0</difficult>
+		<bbox>
+			<left>0</left>
+			<top>52</top>
+			<right>389</right>
+			<bottom>356</bottom>
+		</bbox>
+		<mask>
+            <color>1</color>
+        </mask>
+	</object>
+</annotation>
