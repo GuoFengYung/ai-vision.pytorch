@@ -1,0 +1,28 @@
+<annotation>
+  <filename>Frame1310.jpg</filename>
+  <size>
+    <width>640.0</width>
+    <height>512.0</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>pip_broken</name>
+    <difficult>0</difficult>
+    <bbox>
+      <left>554.3624161073825</left>
+      <top>339.3288590604027</top>
+      <right>561.2080536912752</right>
+      <bottom>346.0402684563758</bottom>
+    </bbox>
+  </object>
+  <object>
+    <name>pip_broken</name>
+    <difficult>0</difficult>
+    <bbox>
+      <left>145.1</left>
+      <top>253.7</top>
+      <right>156.4</right>
+      <bottom>260.0</bottom>
+    </bbox>
+  </object>
+</annotation>

@@ -1,0 +1,321 @@
+2023-06-01 11:58:49,466 INFO     Created checkpoints directory: ./outputs/tmp\classification\mobilenet_v2\checkpoints-20230601115849-c85f81b4-b46c-4835-893e-de5a78860458
+2023-06-01 11:58:49,467 INFO     
+Config:
+	VERSION = v1.5.0
+	task_name = Name.CLASSIFICATION
+	path_to_checkpoints_dir = ./outputs/tmp\classification\mobilenet_v2\checkpoints-20230601115849-c85f81b4-b46c-4835-893e-de5a78860458
+	path_to_data_dir = ./examples/Cifar10
+	path_to_extra_data_dirs = ()
+	path_to_resuming_checkpoint = None
+	path_to_finetuning_checkpoint = None
+	path_to_loading_checkpoint = None
+	num_workers = 0
+	visible_devices = None
+	needs_freeze_bn = False
+	image_resized_width = 224
+	image_resized_height = 224
+	image_min_side = -1
+	image_max_side = -1
+	image_side_divisor = 1
+	aug_strategy = Strategy.ALL
+	aug_hflip_prob = 0.5
+	aug_vflip_prob = 0
+	aug_rotate90_prob = 0
+	aug_crop_prob_and_min_max = (0, (0, 1))
+	aug_zoom_prob_and_min_max = (0, (-1, 1))
+	aug_scale_prob_and_min_max = (0, (-1, 1))
+	aug_translate_prob_and_min_max = (0, (-1, 1))
+	aug_rotate_prob_and_min_max = (0, (-1, 1))
+	aug_shear_prob_and_min_max = (0, (-1, 1))
+	aug_blur_prob_and_min_max = (0, (0, 1))
+	aug_sharpen_prob_and_min_max = (0, (0, 1))
+	aug_color_prob_and_min_max = (0, (-1, 1))
+	aug_brightness_prob_and_min_max = (0, (-1, 1))
+	aug_grayscale_prob_and_min_max = (0, (0, 1))
+	aug_contrast_prob_and_min_max = (0, (-1, 1))
+	aug_noise_prob_and_min_max = (0, (0, 1))
+	aug_resized_crop_prob_and_width_height = (0, (224, 224))
+	batch_size = 8
+	learning_rate = 0.008
+	momentum = 0.9
+	weight_decay = 0.0005
+	clip_grad_base_and_max = None
+	step_lr_sizes = [6, 8]
+	step_lr_gamma = 0.1
+	warm_up_factor = 0.3333
+	warm_up_num_iters = 500
+	num_batches_to_display = 20
+	num_epochs_to_validate = 1
+	num_epochs_to_finish = 10
+	max_num_checkpoints = 6
+	algorithm_name = Name.MOBILENET_V2
+	pretrained = True
+	num_frozen_levels = 2
+	eval_center_crop_ratio = 1
+
+2023-06-01 11:58:49,480 INFO     Packages:
+2023-06-01 11:58:49,480 INFO     	virtualenv, 20.16.2
+2023-06-01 11:58:49,480 INFO     	filelock, 3.7.1
+2023-06-01 11:58:49,481 INFO     	cfgv, 3.3.1
+2023-06-01 11:58:49,481 INFO     	pre-commit, 2.20.0
+2023-06-01 11:58:49,481 INFO     	identify, 2.5.2
+2023-06-01 11:58:49,481 INFO     	platformdirs, 2.5.2
+2023-06-01 11:58:49,481 INFO     	nodeenv, 1.7.0
+2023-06-01 11:58:49,481 INFO     	distlib, 0.3.5
+2023-06-01 11:58:49,481 INFO     	certifi, 2022.6.15
+2023-06-01 11:58:49,481 INFO     	pytz, 2022.1
+2023-06-01 11:58:49,481 INFO     	tzdata, 2022.1
+2023-06-01 11:58:49,481 INFO     	tifffile, 2021.11.2
+2023-06-01 11:58:49,481 INFO     	pywin32, 302
+2023-06-01 11:58:49,481 INFO     	setuptools, 61.2.0
+2023-06-01 11:58:49,481 INFO     	cryptography, 40.0.1
+2023-06-01 11:58:49,481 INFO     	pyzmq, 23.2.0
+2023-06-01 11:58:49,481 INFO     	attrs, 21.4.0
+2023-06-01 11:58:49,481 INFO     	argon2-cffi, 21.3.0
+2023-06-01 11:58:49,481 INFO     	packaging, 21.3
+2023-06-01 11:58:49,482 INFO     	pip, 21.2.4
+2023-06-01 11:58:49,482 INFO     	argon2-cffi-bindings, 21.2.0
+2023-06-01 11:58:49,482 INFO     	workalendar, 16.3.0
+2023-06-01 11:58:49,482 INFO     	PyQt5-sip, 12.11.0
+2023-06-01 11:58:49,482 INFO     	pyarrow, 11.0.0
+2023-06-01 11:58:49,482 INFO     	Pillow, 9.1.1
+2023-06-01 11:58:49,482 INFO     	thinc, 8.1.9
+2023-06-01 11:58:49,482 INFO     	click, 8.1.3
+2023-06-01 11:58:49,482 INFO     	natsort, 8.1.0
+2023-06-01 11:58:49,482 INFO     	mysql-connector-python, 8.0.32
+2023-06-01 11:58:49,482 INFO     	tenacity, 8.0.1
+2023-06-01 11:58:49,482 INFO     	ipython, 7.34.0
+2023-06-01 11:58:49,482 INFO     	ipywidgets, 7.6.5
+2023-06-01 11:58:49,482 INFO     	jupyter-client, 7.2.2
+2023-06-01 11:58:49,482 INFO     	sendgrid, 6.9.7
+2023-06-01 11:58:49,482 INFO     	ipykernel, 6.9.1
+2023-06-01 11:58:49,482 INFO     	notebook, 6.4.12
+2023-06-01 11:58:49,482 INFO     	nbconvert, 6.4.4
+2023-06-01 11:58:49,483 INFO     	jupyter-console, 6.4.3
+2023-06-01 11:58:49,483 INFO     	smart-open, 6.3.0
+2023-06-01 11:58:49,483 INFO     	tornado, 6.1
+2023-06-01 11:58:49,483 INFO     	PyYAML, 6.0
+2023-06-01 11:58:49,483 INFO     	PyQt5, 5.15.7
+2023-06-01 11:58:49,483 INFO     	PyQt5-Qt5, 5.15.2
+2023-06-01 11:58:49,483 INFO     	psutil, 5.9.1
+2023-06-01 11:58:49,492 INFO     	plotly, 5.9.0
+2023-06-01 11:58:49,492 INFO     	qtconsole, 5.3.1
+2023-06-01 11:58:49,492 INFO     	nbformat, 5.3.0
+2023-06-01 11:58:49,492 INFO     	traitlets, 5.3.0
+2023-06-01 11:58:49,492 INFO     	cachetools, 5.2.0
+2023-06-01 11:58:49,492 INFO     	importlib-resources, 5.2.0
+2023-06-01 11:58:49,492 INFO     	decorator, 5.1.1
+2023-06-01 11:58:49,492 INFO     	labelme, 5.0.1
+2023-06-01 11:58:49,492 INFO     	tqdm, 4.64.0
+2023-06-01 11:58:49,492 INFO     	fonttools, 4.33.3
+2023-06-01 11:58:49,492 INFO     	sip, 4.19.13
+2023-06-01 11:58:49,492 INFO     	importlib-metadata, 4.11.4
+2023-06-01 11:58:49,492 INFO     	beautifulsoup4, 4.11.1
+2023-06-01 11:58:49,492 INFO     	jupyter-core, 4.10.0
+2023-06-01 11:58:49,492 INFO     	lxml, 4.9.0
+2023-06-01 11:58:49,492 INFO     	rsa, 4.8
+2023-06-01 11:58:49,493 INFO     	selenium, 4.8.0
+2023-06-01 11:58:49,493 INFO     	opencv-contrib-python, 4.6.0.66
+2023-06-01 11:58:49,493 INFO     	opencv-python, 4.6.0.66
+2023-06-01 11:58:49,493 INFO     	opencv-python-headless, 4.6.0.66
+2023-06-01 11:58:49,493 INFO     	jsonschema, 4.4.0
+2023-06-01 11:58:49,493 INFO     	typing-extensions, 4.2.0
+2023-06-01 11:58:49,493 INFO     	oauth2client, 4.1.3
+2023-06-01 11:58:49,493 INFO     	uritemplate, 4.1.1
+2023-06-01 11:58:49,493 INFO     	bleach, 4.1.0
+2023-06-01 11:58:49,493 INFO     	Flask-Migrate, 4.0.4
+2023-06-01 11:58:49,493 INFO     	protobuf, 3.19.4
+2023-06-01 11:58:49,493 INFO     	zipp, 3.8.0
+2023-06-01 11:58:49,493 INFO     	anyio, 3.6.2
+2023-06-01 11:58:49,493 INFO     	asgiref, 3.6.0
+2023-06-01 11:58:49,493 INFO     	spacy, 3.5.2
+2023-06-01 11:58:49,493 INFO     	widgetsnbextension, 3.5.2
+2023-06-01 11:58:49,493 INFO     	Markdown, 3.3.7
+2023-06-01 11:58:49,493 INFO     	python-http-client, 3.3.7
+2023-06-01 11:58:49,493 INFO     	lightgbm, 3.3.3
+2023-06-01 11:58:49,494 INFO     	idna, 3.3
+2023-06-01 11:58:49,494 INFO     	langcodes, 3.3.0
+2023-06-01 11:58:49,494 INFO     	Django, 3.2.17
+2023-06-01 11:58:49,494 INFO     	matplotlib, 3.2.2
+2023-06-01 11:58:49,494 INFO     	oauthlib, 3.2.0
+2023-06-01 11:58:49,494 INFO     	Jinja2, 3.1.2
+2023-06-01 11:58:49,494 INFO     	threadpoolctl, 3.1.0
+2023-06-01 11:58:49,494 INFO     	prompt-toolkit, 3.0.30
+2023-06-01 11:58:49,494 INFO     	spacy-legacy, 3.0.12
+2023-06-01 11:58:49,494 INFO     	openpyxl, 3.0.10
+2023-06-01 11:58:49,494 INFO     	pyparsing, 3.0.9
+2023-06-01 11:58:49,494 INFO     	preshed, 3.0.8
+2023-06-01 11:58:49,494 INFO     	Flask-SQLAlchemy, 3.0.3
+2023-06-01 11:58:49,494 INFO     	WTForms, 3.0.1
+2023-06-01 11:58:49,494 INFO     	google-api-python-client, 2.49.0
+2023-06-01 11:58:49,494 INFO     	requests, 2.27.1
+2023-06-01 11:58:49,494 INFO     	pycparser, 2.21
+2023-06-01 11:58:49,494 INFO     	imageio, 2.19.3
+2023-06-01 11:58:49,494 INFO     	fastjsonschema, 2.15.1
+2023-06-01 11:58:49,495 INFO     	Pygments, 2.12.0
+2023-06-01 11:58:49,495 INFO     	tensorboard, 2.9.1
+2023-06-01 11:58:49,495 INFO     	python-dateutil, 2.8.2
+2023-06-01 11:58:49,495 INFO     	google-api-core, 2.8.1
+2023-06-01 11:58:49,495 INFO     	fastai, 2.7.12
+2023-06-01 11:58:49,495 INFO     	google-auth, 2.6.6
+2023-06-01 11:58:49,495 INFO     	networkx, 2.6.3
+2023-06-01 11:58:49,495 INFO     	srsly, 2.4.6
+2023-06-01 11:58:49,495 INFO     	convertdate, 2.4.0
+2023-06-01 11:58:49,495 INFO     	sortedcontainers, 2.4.0
+2023-06-01 11:58:49,495 INFO     	soupsieve, 2.3.1
+2023-06-01 11:58:49,495 INFO     	hijri-converter, 2.2.4
+2023-06-01 11:58:49,495 INFO     	Flask, 2.2.3
+2023-06-01 11:58:49,495 INFO     	Werkzeug, 2.2.2
+2023-06-01 11:58:49,495 INFO     	icecream, 2.1.2
+2023-06-01 11:58:49,495 INFO     	itsdangerous, 2.1.2
+2023-06-01 11:58:49,495 INFO     	MarkupSafe, 2.1.1
+2023-06-01 11:58:49,495 INFO     	QtPy, 2.1.0
+2023-06-01 11:58:49,495 INFO     	charset-normalizer, 2.0.12
+2023-06-01 11:58:49,496 INFO     	catalogue, 2.0.8
+2023-06-01 11:58:49,496 INFO     	cymem, 2.0.7
+2023-06-01 11:58:49,496 INFO     	asttokens, 2.0.5
+2023-06-01 11:58:49,496 INFO     	pygsheets, 2.0.5
+2023-06-01 11:58:49,496 INFO     	starkbank-ecdsa, 2.0.3
+2023-06-01 11:58:49,508 INFO     	pywinpty, 2.0.2
+2023-06-01 11:58:49,508 INFO     	pycocotools-windows, 2.0.0.2
+2023-06-01 11:58:49,508 INFO     	pyluach, 2.0.0
+2023-06-01 11:58:49,508 INFO     	googleapis-common-protos, 1.56.2
+2023-06-01 11:58:49,508 INFO     	grpcio, 1.46.3
+2023-06-01 11:58:49,508 INFO     	QuantLib, 1.27
+2023-06-01 11:58:49,508 INFO     	urllib3, 1.26.9
+2023-06-01 11:58:49,508 INFO     	numpy, 1.21.6
+2023-06-01 11:58:49,508 INFO     	QuantLib-Python, 1.18
+2023-06-01 11:58:49,508 INFO     	six, 1.16.0
+2023-06-01 11:58:49,508 INFO     	cffi, 1.15.0
+2023-06-01 11:58:49,508 INFO     	torch, 1.12.1
+2023-06-01 11:58:49,508 INFO     	pydantic, 1.10.1
+2023-06-01 11:58:49,508 INFO     	async-generator, 1.10
+2023-06-01 11:58:49,508 INFO     	alembic, 1.9.3
+2023-06-01 11:58:49,508 INFO     	labelImg, 1.8.6
+2023-06-01 11:58:49,509 INFO     	Shapely, 1.8.2
+2023-06-01 11:58:49,509 INFO     	tensorboard-plugin-wit, 1.8.1
+2023-06-01 11:58:49,509 INFO     	Send2Trash, 1.8.0
+2023-06-01 11:58:49,509 INFO     	scipy, 1.7.3
+2023-06-01 11:58:49,509 INFO     	chinesecalendar, 1.7.2
+2023-06-01 11:58:49,509 INFO     	PySocks, 1.7.1
+2023-06-01 11:58:49,509 INFO     	xgboost, 1.6.2
+2023-06-01 11:58:49,509 INFO     	fastcore, 1.5.29
+2023-06-01 11:58:49,509 INFO     	nest-asyncio, 1.5.5
+2023-06-01 11:58:49,509 INFO     	debugpy, 1.5.1
+2023-06-01 11:58:49,509 INFO     	blinker, 1.5
+2023-06-01 11:58:49,509 INFO     	imgviz, 1.5.0
+2023-06-01 11:58:49,509 INFO     	pandocfilters, 1.5.0
+2023-06-01 11:58:49,509 INFO     	SQLAlchemy, 1.4.37
+2023-06-01 11:58:49,509 INFO     	kiwisolver, 1.4.3
+2023-06-01 11:58:49,509 INFO     	pydot, 1.4.2
+2023-06-01 11:58:49,509 INFO     	nose, 1.3.7
+2023-06-01 11:58:49,509 INFO     	install, 1.3.5
+2023-06-01 11:58:49,509 INFO     	pandas, 1.3.5
+2023-06-01 11:58:49,510 INFO     	deap, 1.3.3
+2023-06-01 11:58:49,510 INFO     	requests-oauthlib, 1.3.1
+2023-06-01 11:58:49,510 INFO     	lmdb, 1.3.0
+2023-06-01 11:58:49,510 INFO     	PyWavelets, 1.3.0
+2023-06-01 11:58:49,510 INFO     	sniffio, 1.3.0
+2023-06-01 11:58:49,510 INFO     	Mako, 1.2.4
+2023-06-01 11:58:49,510 INFO     	outcome, 1.2.0
+2023-06-01 11:58:49,510 INFO     	wsproto, 1.2.0
+2023-06-01 11:58:49,510 INFO     	greenlet, 1.1.2
+2023-06-01 11:58:49,510 INFO     	catboost, 1.1.1
+2023-06-01 11:58:49,510 INFO     	wasabi, 1.1.1
+2023-06-01 11:58:49,510 INFO     	absl-py, 1.1.0
+2023-06-01 11:58:49,510 INFO     	et-xmlfile, 1.1.0
+2023-06-01 11:58:49,510 INFO     	exceptiongroup, 1.1.0
+2023-06-01 11:58:49,510 INFO     	joblib, 1.1.0
+2023-06-01 11:58:49,510 INFO     	termcolor, 1.1.0
+2023-06-01 11:58:49,510 INFO     	murmurhash, 1.0.9
+2023-06-01 11:58:49,510 INFO     	spacy-loggers, 1.0.4
+2023-06-01 11:58:49,510 INFO     	fastprogress, 1.0.3
+2023-06-01 11:58:49,510 INFO     	PyMySQL, 1.0.2
+2023-06-01 11:58:49,511 INFO     	scikit-learn, 1.0.2
+2023-06-01 11:58:49,511 INFO     	Flask-WTF, 1.0.1
+2023-06-01 11:58:49,511 INFO     	holiday, 1.0.0
+2023-06-01 11:58:49,511 INFO     	jupyter, 1.0.0
+2023-06-01 11:58:49,511 INFO     	jupyterlab-widgets, 1.0.0
+2023-06-01 11:58:49,511 INFO     	fastapi, 0.95.1
+2023-06-01 11:58:49,511 INFO     	wheel, 0.37.1
+2023-06-01 11:58:49,511 INFO     	Cython, 0.29.30
+2023-06-01 11:58:49,511 INFO     	starlette, 0.26.1
+2023-06-01 11:58:49,511 INFO     	httpx, 0.24.0
+2023-06-01 11:58:49,511 INFO     	trio, 0.22.0
+2023-06-01 11:58:49,511 INFO     	uvicorn, 0.22.0
+2023-06-01 11:58:49,511 INFO     	mlxtend, 0.21.0
+2023-06-01 11:58:49,511 INFO     	httplib2, 0.20.4
+2023-06-01 11:58:49,511 INFO     	graphviz, 0.20
+2023-06-01 11:58:49,511 INFO     	scikit-image, 0.19.3
+2023-06-01 11:58:49,511 INFO     	jedi, 0.18.1
+2023-06-01 11:58:49,511 INFO     	pyrsistent, 0.18.0
+2023-06-01 11:58:49,511 INFO     	httpcore, 0.17.0
+2023-06-01 11:58:49,512 INFO     	holidays, 0.15
+2023-06-01 11:58:49,512 INFO     	h11, 0.14.0
+2023-06-01 11:58:49,512 INFO     	prometheus-client, 0.13.1
+2023-06-01 11:58:49,512 INFO     	terminado, 0.13.1
+2023-06-01 11:58:49,512 INFO     	torchvision, 0.13.1
+2023-06-01 11:58:49,512 INFO     	torchaudio, 0.12.0
+2023-06-01 11:58:49,524 INFO     	seaborn, 0.11.2
+2023-06-01 11:58:49,524 INFO     	cycler, 0.11.0
+2023-06-01 11:58:49,525 INFO     	toml, 0.10.2
+2023-06-01 11:58:49,525 INFO     	pathy, 0.10.1
+2023-06-01 11:58:49,525 INFO     	trio-websocket, 0.9.2
+2023-06-01 11:58:49,526 INFO     	Flask-Mail, 0.9.1
+2023-06-01 11:58:49,526 INFO     	mistune, 0.8.4
+2023-06-01 11:58:49,526 INFO     	executing, 0.8.3
+2023-06-01 11:58:49,526 INFO     	parso, 0.8.3
+2023-06-01 11:58:49,527 INFO     	blis, 0.7.9
+2023-06-01 11:58:49,527 INFO     	pickleshare, 0.7.5
+2023-06-01 11:58:49,527 INFO     	defusedxml, 0.7.1
+2023-06-01 11:58:49,528 INFO     	efficientnet-pytorch, 0.7.1
+2023-06-01 11:58:49,528 INFO     	typer, 0.7.0
+2023-06-01 11:58:49,528 INFO     	tensorboard-data-server, 0.6.1
+2023-06-01 11:58:49,528 INFO     	dataclasses, 0.6
+2023-06-01 11:58:49,529 INFO     	testpath, 0.6.0
+2023-06-01 11:58:49,529 INFO     	nbclient, 0.5.13
+2023-06-01 11:58:49,529 INFO     	PyMeeus, 0.5.11
+2023-06-01 11:58:49,529 INFO     	webencodings, 0.5.1
+2023-06-01 11:58:49,530 INFO     	jsonify, 0.5
+2023-06-01 11:58:49,530 INFO     	pyasn1, 0.4.8
+2023-06-01 11:58:49,530 INFO     	albumentations, 0.4.6
+2023-06-01 11:58:49,531 INFO     	colorama, 0.4.6
+2023-06-01 11:58:49,531 INFO     	google-auth-oauthlib, 0.4.6
+2023-06-01 11:58:49,531 INFO     	sqlparse, 0.4.3
+2023-06-01 11:58:49,531 INFO     	entrypoints, 0.4
+2023-06-01 11:58:49,532 INFO     	imgaug, 0.4.0
+2023-06-01 11:58:49,532 INFO     	pyasn1-modules, 0.2.8
+2023-06-01 11:58:49,532 INFO     	wcwidth, 0.2.5
+2023-06-01 11:58:49,533 INFO     	backports.zoneinfo, 0.2.1
+2023-06-01 11:58:49,533 INFO     	korean-lunar-calendar, 0.2.1
+2023-06-01 11:58:49,533 INFO     	wincertstore, 0.2
+2023-06-01 11:58:49,533 INFO     	backcall, 0.2.0
+2023-06-01 11:58:49,534 INFO     	ipython-genutils, 0.2.0
+2023-06-01 11:58:49,534 INFO     	lunardate, 0.2.0
+2023-06-01 11:58:49,534 INFO     	diGraph, 0.1.4
+2023-06-01 11:58:49,534 INFO     	matplotlib-inline, 0.1.3
+2023-06-01 11:58:49,535 INFO     	jupyterlab-pygments, 0.1.2
+2023-06-01 11:58:49,535 INFO     	google-auth-httplib2, 0.1.0
+2023-06-01 11:58:49,535 INFO     	fastdownload, 0.0.7
+2023-06-01 11:58:49,536 INFO     	google-spreadsheet, 0.0.6
+2023-06-01 11:58:49,536 INFO     	resnest, 0.0.5
+2023-06-01 11:58:49,536 INFO     	confection, 0.0.4
+2023-06-01 11:58:49,536 INFO     	qudida, 0.0.4
+2023-06-01 11:58:49,537 INFO     	sklearn, 0.0.post1
+2023-06-01 11:58:49,537 INFO     	aibox, 0.0.1
+2023-06-01 11:58:49,537 INFO     	hdre-profit-module, 1.1
+2023-06-01 11:58:49,538 INFO     Arguments:
+-o=./outputs/tmp -d=./examples/Cifar10 --num_workers=0 classification --algorithm=mobilenet_v2
+2023-06-01 11:59:03,970 ERROR    Something went wrong
+Traceback (most recent call last):
+  File "C:/Users/User/Desktop/ai-vision.pytorch/src/aibox_vision/api/train.py", line 92, in _train
+    trainer = Trainer(config, logger, augmenter, device, device_count, db, terminator, path_to_checkpoints_dir)
+  File "C:\Users\User\Desktop\ai-vision.pytorch\src\aibox_vision\lib\task\classification\trainer.py", line 364, in __init__
+    for path_to_data_dir in [config.path_to_data_dir] + list(config.path_to_extra_data_dirs)]
+  File "C:\Users\User\Desktop\ai-vision.pytorch\src\aibox_vision\lib\task\classification\trainer.py", line 364, in <listcomp>
+    for path_to_data_dir in [config.path_to_data_dir] + list(config.path_to_extra_data_dirs)]
+  File "C:\Users\User\Desktop\ai-vision.pytorch\src\aibox_vision\lib\task\classification\dataset.py", line 67, in __init__
+    image_ids = read_image_ids(path_to_split_txt=os.path.join(path_to_splits_dir, 'train.txt'))
+  File "C:\Users\User\Desktop\ai-vision.pytorch\src\aibox_vision\lib\task\classification\dataset.py", line 62, in read_image_ids
+    with open(path_to_split_txt, 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './examples/Cifar10\\splits\\train.txt'

@@ -1,0 +1,22 @@
+<annotation>
+	<filename>000017.jpg</filename>
+	<size>
+		<width>480</width>
+		<height>364</height>
+		<depth>3</depth>
+	</size>
+	<category>person</category>
+	<object>
+		<name>person</name>
+		<difficult>0</difficult>
+		<bbox>
+			<left>185</left>
+			<top>62</top>
+			<right>279</right>
+			<bottom>199</bottom>
+		</bbox>
+		<mask>
+            <color>1</color>
+        </mask>
+	</object>
+</annotation>

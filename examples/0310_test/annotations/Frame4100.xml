@@ -1,0 +1,18 @@
+<annotation>
+  <filename>Frame4100.jpg</filename>
+  <size>
+    <width>640.0</width>
+    <height>512.0</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>Insulation_material</name>
+    <difficult>0</difficult>
+    <bbox>
+      <left>211.4688128772636</left>
+      <top>217.50503018108654</top>
+      <right>240.04024144869217</right>
+      <bottom>228.9738430583501</bottom>
+    </bbox>
+  </object>
+</annotation>

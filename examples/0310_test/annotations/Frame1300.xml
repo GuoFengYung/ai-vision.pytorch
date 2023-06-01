@@ -1,0 +1,28 @@
+<annotation>
+  <filename>Frame1300.jpg</filename>
+  <size>
+    <width>640.0</width>
+    <height>512.0</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>pip_broken</name>
+    <difficult>0</difficult>
+    <bbox>
+      <left>537.4</left>
+      <top>337.8</top>
+      <right>545.2</right>
+      <bottom>344.4</bottom>
+    </bbox>
+  </object>
+  <object>
+    <name>pip_broken</name>
+    <difficult>0</difficult>
+    <bbox>
+      <left>126.2</left>
+      <top>253.2</top>
+      <right>138.8</right>
+      <bottom>262.4</bottom>
+    </bbox>
+  </object>
+</annotation>

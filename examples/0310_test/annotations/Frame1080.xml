@@ -1,0 +1,28 @@
+<annotation>
+  <filename>Frame1080.jpg</filename>
+  <size>
+    <width>640.0</width>
+    <height>512.0</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>pip_broken</name>
+    <difficult>0</difficult>
+    <bbox>
+      <left>226.44017725258493</left>
+      <top>287.29689807976365</top>
+      <right>241.06351550960116</right>
+      <bottom>295.1255539143279</bottom>
+    </bbox>
+  </object>
+  <object>
+    <name>pip_broken</name>
+    <difficult>0</difficult>
+    <bbox>
+      <left>23.9</left>
+      <top>187.9</top>
+      <right>46.8</right>
+      <bottom>232.0</bottom>
+    </bbox>
+  </object>
+</annotation>

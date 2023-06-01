@@ -1,0 +1,10 @@
+.idea/*
+!.idea/runConfigurations
+
+__pycache__/
+
+build/
+caches/
+aibox_vision.egg-info/
+
+*.so

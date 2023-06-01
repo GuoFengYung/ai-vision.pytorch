@@ -1,0 +1,34 @@
+<annotation>
+	<filename>002034.jpg</filename>
+	<size>
+		<width>500</width>
+		<height>288</height>
+		<depth>3</depth>
+	</size>
+	<object>
+		<name>cat</name>
+		<difficult>0</difficult>
+		<bbox>
+			<left>8</left>
+			<top>122</top>
+			<right>207</right>
+			<bottom>288</bottom>
+		</bbox>
+		<mask>
+            <color>1</color>
+        </mask>
+	</object>
+	<object>
+		<name>dog</name>
+		<difficult>0</difficult>
+		<bbox>
+			<left>272</left>
+			<top>69</top>
+			<right>474</right>
+			<bottom>199</bottom>
+		</bbox>
+		<mask>
+            <color>2</color>
+        </mask>
+	</object>
+</annotation>

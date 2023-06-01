@@ -1,0 +1,18 @@
+<annotation>
+  <filename>000001.jpg</filename>
+  <size>
+    <width>353</width>
+    <height>500</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>dog</name>
+    <difficult>0</difficult>
+    <bbox>
+      <left>45</left>
+      <top>235</top>
+      <right>192</right>
+      <bottom>358</bottom>
+    </bbox>
+  </object>
+</annotation>
