@@ -25,6 +25,11 @@ from aibox_vision.lib.util import Util
 
 def _train(config: Config, terminator: Event):
     path_to_checkpoints_dir = config.path_to_checkpoints_dir
+
+    path_to_checkpoints_dir = os.path.dirname(path_to_checkpoints_dir)
+    if not os.path.exists(path_to_checkpoints_dir):
+        os.makedirs(path_to_checkpoints_dir)
+
     logger = Logger.build(name=os.path.basename(path_to_checkpoints_dir),
                           path_to_log_file=os.path.join(path_to_checkpoints_dir, 'train.log'))
     logger.i(f'Created checkpoints directory: {path_to_checkpoints_dir}')
